@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowOpened" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowOpened"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="159" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jPanel4" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="11" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="21" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel2" alignment="0" min="-2" pref="57" max="-2" attributes="0"/>
+                      <Component id="APELLIDO" alignment="0" min="-2" pref="57" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="TXT_NOMBRE" pref="258" max="32767" attributes="0"/>
+                      <Component id="TXT_APELLIDO" max="32767" attributes="0"/>
+                      <Component id="TXT_IDENTIDAD" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TXT_IDENTIDAD" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TXT_NOMBRE" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="8" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="APELLIDO" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TXT_APELLIDO" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="33" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="IDENTIDAD:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TXT_IDENTIDAD">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="33" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="NOMBRE:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TXT_NOMBRE">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="APELLIDO">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="33" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="APELLIDO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TXT_APELLIDO">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="SEXO" max="32767" attributes="0"/>
+                      <Component id="jLabel5" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="TXT_PESO" min="-2" pref="257" max="-2" attributes="0"/>
+                      <Component id="JCB_SEXO" min="-2" pref="153" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="32" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TXT_PESO" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="SEXO" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="JCB_SEXO" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="14" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="33" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="PESO:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TXT_PESO">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="SEXO">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="33" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="GENERO:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="JCB_SEXO">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="ELEGIR"/>
+                <StringItem index="1" value="FEMENINO"/>
+                <StringItem index="2" value="MASCULINO"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="SEXO1" min="-2" pref="104" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="JCB_DEPARTAMENTO" min="-2" pref="168" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="SEXO2" min="-2" pref="104" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="JCB_MUNICIPIO" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="SEXO1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="JCB_DEPARTAMENTO" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="SEXO2" min="-2" max="-2" attributes="0"/>
+                      <Component id="JCB_MUNICIPIO" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="19" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JComboBox" name="JCB_DEPARTAMENTO">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="19">
+                <StringItem index="0" value="ELEGIR"/>
+                <StringItem index="1" value="ATLANTIDA"/>
+                <StringItem index="2" value="COLON"/>
+                <StringItem index="3" value="COMAYAGUA"/>
+                <StringItem index="4" value="COPAN"/>
+                <StringItem index="5" value="CORTES"/>
+                <StringItem index="6" value="CHOLUTECA"/>
+                <StringItem index="7" value="FRANCISCO MORAZAN"/>
+                <StringItem index="8" value="GRACIAS A DIOS"/>
+                <StringItem index="9" value="INTIBUCA"/>
+                <StringItem index="10" value="ISLAS DE LA BAHIA"/>
+                <StringItem index="11" value="LA PAZ"/>
+                <StringItem index="12" value="LEMPIRA"/>
+                <StringItem index="13" value="OLANCHO"/>
+                <StringItem index="14" value="SANTA BARBARA"/>
+                <StringItem index="15" value="VALLE"/>
+                <StringItem index="16" value="YORO"/>
+                <StringItem index="17" value="OCOTEPEQUE"/>
+                <StringItem index="18" value="EL PARAISO"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JCB_DEPARTAMENTOActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="SEXO1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="33" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="DEPARTAMENTO:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="SEXO2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="33" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="MUNICIPIO:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="JCB_MUNICIPIO">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="180">
+                <StringItem index="0" value="ELEGIR"/>
+                <StringItem index="1" value="LA CEIBA"/>
+                <StringItem index="2" value="TELA"/>
+                <StringItem index="3" value="JUTIAPA"/>
+                <StringItem index="4" value="LA MASICA"/>
+                <StringItem index="5" value="SAN FRANCISCO"/>
+                <StringItem index="6" value="ARIZONA"/>
+                <StringItem index="7" value="ESPARTA"/>
+                <StringItem index="8" value="EL PORVENIR"/>
+                <StringItem index="9" value="TRUJILLO"/>
+                <StringItem index="10" value="BALFATE"/>
+                <StringItem index="11" value="IRIONA"/>
+                <StringItem index="12" value="LIM&#xd3;N"/>
+                <StringItem index="13" value="SAB&#xc1;"/>
+                <StringItem index="14" value="SANTA FE"/>
+                <StringItem index="15" value="SANTA ROSA DE AGU&#xc1;N"/>
+                <StringItem index="16" value="SONAGUERA"/>
+                <StringItem index="17" value="TOCOA"/>
+                <StringItem index="18" value="BONITO ORIENTAL"/>
+                <StringItem index="19" value="COMAYAGUA"/>
+                <StringItem index="20" value="AJUTERIQUE"/>
+                <StringItem index="21" value="EL ROSARIO"/>
+                <StringItem index="22" value="ESQU&#xcd;AS"/>
+                <StringItem index="23" value="HUMUYA"/>
+                <StringItem index="24" value="LA LIBERTAD"/>
+                <StringItem index="25" value="LAMAN&#xcd;"/>
+                <StringItem index="26" value="LA TRINIDAD"/>
+                <StringItem index="27" value="LEJAMANI"/>
+                <StringItem index="28" value="MEAMBAR"/>
+                <StringItem index="29" value="MINAS DE ORO"/>
+                <StringItem index="30" value="OJOS DE AGUA"/>
+                <StringItem index="31" value="SAN JER&#xd3;NIMO (HONDURAS)"/>
+                <StringItem index="32" value="SAN JOS&#xc9; DE COMAYAGUA"/>
+                <StringItem index="33" value="SAN JOS&#xc9; DEL POTRERO"/>
+                <StringItem index="34" value="SAN LUIS"/>
+                <StringItem index="35" value="SAN SEBASTI&#xc1;N"/>
+                <StringItem index="36" value="SIGUATEPEQUE"/>
+                <StringItem index="37" value="VILLA DE SAN ANTONIO"/>
+                <StringItem index="38" value="LAS LAJAS"/>
+                <StringItem index="39" value="TAULAB&#xc9;"/>
+                <StringItem index="40" value="SANTA ROSA DE COP&#xc1;N"/>
+                <StringItem index="41" value="CABA&#xd1;AS"/>
+                <StringItem index="42" value="CONCEPCI&#xd3;N"/>
+                <StringItem index="43" value="COP&#xc1;N RUINAS"/>
+                <StringItem index="44" value="CORQU&#xcd;N"/>
+                <StringItem index="45" value="CUCUYAGUA"/>
+                <StringItem index="46" value="DOLORES"/>
+                <StringItem index="47" value="DULCE NOMBRE"/>
+                <StringItem index="48" value="EL PARA&#xcd;SO"/>
+                <StringItem index="49" value="FLORIDA"/>
+                <StringItem index="50" value="LA JIGUA"/>
+                <StringItem index="51" value="LA UNI&#xd3;N"/>
+                <StringItem index="52" value="NUEVA ARCADIA"/>
+                <StringItem index="53" value="SAN AGUST&#xcd;N"/>
+                <StringItem index="54" value="SAN ANTONIO"/>
+                <StringItem index="55" value="SAN JER&#xd3;NIMO"/>
+                <StringItem index="56" value="SAN JOS&#xc9;"/>
+                <StringItem index="57" value="SAN JUAN DE OPOA"/>
+                <StringItem index="58" value="SAN NICOL&#xc1;S"/>
+                <StringItem index="59" value="SAN PEDRO"/>
+                <StringItem index="60" value="SANTA RITA"/>
+                <StringItem index="61" value="TRINIDAD DE COP&#xc1;N"/>
+                <StringItem index="62" value="VERACRUZ"/>
+                <StringItem index="63" value="SAN PEDRO SULA"/>
+                <StringItem index="64" value="CHOLOMA"/>
+                <StringItem index="65" value="OMOA"/>
+                <StringItem index="66" value="PIMIENTA"/>
+                <StringItem index="67" value="POTRERILLOS"/>
+                <StringItem index="68" value="PUERTO CORT&#xc9;S"/>
+                <StringItem index="69" value="SAN ANTONIO DE CORT&#xc9;S"/>
+                <StringItem index="70" value="SAN FRANCISCO DE YOJOA"/>
+                <StringItem index="71" value="SAN MANUEL"/>
+                <StringItem index="72" value="SANTA CRUZ DE YOJOA"/>
+                <StringItem index="73" value="VILLANUEVA"/>
+                <StringItem index="74" value="LA LIMA"/>
+                <StringItem index="75" value="CHOLUTECA"/>
+                <StringItem index="76" value="APACILAGUA"/>
+                <StringItem index="77" value="CONCEPCI&#xd3;N DE MAR&#xcd;A"/>
+                <StringItem index="78" value="DUYURE"/>
+                <StringItem index="79" value="EL CORPUS"/>
+                <StringItem index="80" value="EL TRIUNFO"/>
+                <StringItem index="81" value="MARCOVIA"/>
+                <StringItem index="82" value="MOROLICA"/>
+                <StringItem index="83" value="NAMASIGUE"/>
+                <StringItem index="84" value="OROCUINA"/>
+                <StringItem index="85" value="PESPIRE"/>
+                <StringItem index="86" value="SAN ANTONIO DE FLORES"/>
+                <StringItem index="87" value="SAN ISIDRO"/>
+                <StringItem index="88" value="SAN JOS&#xc9;"/>
+                <StringItem index="89" value="SAN MARCOS DE COL&#xd3;N"/>
+                <StringItem index="90" value="SANTA ANA DE YUSGUARE"/>
+                <StringItem index="91" value="YUSCAR&#xc1;N"/>
+                <StringItem index="92" value="ALAUCA"/>
+                <StringItem index="93" value="DANL&#xcd;"/>
+                <StringItem index="94" value="EL PARA&#xcd;SO"/>
+                <StringItem index="95" value="G&#xdc;INOPE"/>
+                <StringItem index="96" value="JACALEAPA"/>
+                <StringItem index="97" value="LIURE"/>
+                <StringItem index="98" value="MOROCEL&#xcd;"/>
+                <StringItem index="99" value="OROPOL&#xcd;"/>
+                <StringItem index="100" value="POTRERILLOS"/>
+                <StringItem index="101" value="SAN ANTONIO DE FLORES"/>
+                <StringItem index="102" value="SAN LUCAS"/>
+                <StringItem index="103" value="SAN MAT&#xcd;AS"/>
+                <StringItem index="104" value="SOLEDAD"/>
+                <StringItem index="105" value="TEUPASENTI"/>
+                <StringItem index="106" value="TEXIGUAT"/>
+                <StringItem index="107" value="VADO ANCHO"/>
+                <StringItem index="108" value="YAUYUPE"/>
+                <StringItem index="109" value="TROJES"/>
+                <StringItem index="110" value="DISTRITO CENTRAL"/>
+                <StringItem index="111" value="ALUBAR&#xc9;N"/>
+                <StringItem index="112" value="CEDROS"/>
+                <StringItem index="113" value="CURAR&#xc9;N"/>
+                <StringItem index="114" value="EL PORVENIR"/>
+                <StringItem index="115" value="GUAIMACA"/>
+                <StringItem index="116" value="LA LIBERTAD"/>
+                <StringItem index="117" value="LA VENTA"/>
+                <StringItem index="118" value="LEPATERIQUE"/>
+                <StringItem index="119" value="MARAITA"/>
+                <StringItem index="120" value="MARALE"/>
+                <StringItem index="121" value="NUEVA ARMENIA"/>
+                <StringItem index="122" value="OJOJONA"/>
+                <StringItem index="123" value="ORICA"/>
+                <StringItem index="124" value="REITOCA"/>
+                <StringItem index="125" value="SABANAGRANDE"/>
+                <StringItem index="126" value="SAN ANTONIO DE ORIENTE"/>
+                <StringItem index="127" value="SAN BUENAVENTURA"/>
+                <StringItem index="128" value="SAN IGNACIO"/>
+                <StringItem index="129" value="SAN JUAN DE FLORES"/>
+                <StringItem index="130" value="SAN MIGUELITO"/>
+                <StringItem index="131" value="SANTA ANA"/>
+                <StringItem index="132" value="SANTA LUC&#xcd;A"/>
+                <StringItem index="133" value="TALANGA"/>
+                <StringItem index="134" value="TATUMBLA"/>
+                <StringItem index="135" value="VALLE DE &#xc1;NGELES"/>
+                <StringItem index="136" value="VILLA DE SAN FRANCISCO"/>
+                <StringItem index="137" value="VALLECILLO"/>
+                <StringItem index="138" value="LA PAZ"/>
+                <StringItem index="139" value="AGUANQUETERIQUE"/>
+                <StringItem index="140" value="CABA&#xd1;AS"/>
+                <StringItem index="141" value="CANE"/>
+                <StringItem index="142" value="CHINACLA"/>
+                <StringItem index="143" value="GUAJIQUIRO"/>
+                <StringItem index="144" value="LAUTERIQUE"/>
+                <StringItem index="145" value="MARCALA"/>
+                <StringItem index="146" value="MERCEDES DE ORIENTE"/>
+                <StringItem index="147" value="OPATORO"/>
+                <StringItem index="148" value="SAN ANTONIO DEL NORTE"/>
+                <StringItem index="149" value="SAN JOS&#xc9;"/>
+                <StringItem index="150" value="SAN JUAN"/>
+                <StringItem index="151" value="SAN PEDRO DE TUTULE"/>
+                <StringItem index="152" value="SANTA ANA"/>
+                <StringItem index="153" value="SANTA ELENA"/>
+                <StringItem index="154" value="SANTA MAR&#xcd;A"/>
+                <StringItem index="155" value="SANTIAGO DE PURINGLA"/>
+                <StringItem index="156" value="JUTICALPA"/>
+                <StringItem index="157" value="CAMPAMENTO"/>
+                <StringItem index="158" value="CATACAMAS"/>
+                <StringItem index="159" value="CONCORDIA"/>
+                <StringItem index="160" value="NACAOME"/>
+                <StringItem index="161" value="ALIANZA"/>
+                <StringItem index="162" value="AMAPALA"/>
+                <StringItem index="163" value="ARAMECINA"/>
+                <StringItem index="164" value="CARIDAD"/>
+                <StringItem index="165" value="GOASCOR&#xc1;N"/>
+                <StringItem index="166" value="LANGUE"/>
+                <StringItem index="167" value="SAN FRANCISCO DE CORAY"/>
+                <StringItem index="168" value="SAN LORENZO"/>
+                <StringItem index="169" value="YORO"/>
+                <StringItem index="170" value="ARENAL"/>
+                <StringItem index="171" value="EL NEGRITO"/>
+                <StringItem index="172" value="EL PROGRESO"/>
+                <StringItem index="173" value="JOC&#xd3;N"/>
+                <StringItem index="174" value="MORAZ&#xc1;N"/>
+                <StringItem index="175" value="OLANCHITO"/>
+                <StringItem index="176" value="SANTA RITA"/>
+                <StringItem index="177" value="SULACO"/>
+                <StringItem index="178" value="VICTORIA"/>
+                <StringItem index="179" value="YORITO"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel4">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="JB_GUARDAR" min="-2" pref="107" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  <Component id="jButton1" min="-2" pref="100" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  <Component id="JB_VER" min="-2" pref="89" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="JB_GUARDAR" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="JB_VER" alignment="3" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="JB_GUARDAR">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="33" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Guardar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JB_GUARDARActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="33" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Modificar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="JB_VER">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="33" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Ver"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JB_VERActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="33" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="FORMULARIO"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
